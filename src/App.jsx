@@ -29,8 +29,10 @@ function App() {
         </a>
       </div>
       <h1>CI/CD with Vite, Vitest GitHub Actions and GitHub Pages</h1>
-      <Counter />
-      <Counter />
+      <div className='counter-container'>
+        <Counter />
+        <Counter />
+      </div>
     </>
   );
 }
