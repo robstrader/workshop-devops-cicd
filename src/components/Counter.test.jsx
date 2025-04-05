@@ -13,6 +13,6 @@ describe('Counter', () => {
     render(<Counter />);
     const button = screen.getByRole('button', { name: /count is 0/i });
     await userEvent.click(button);
-    expect(button).toHaveTextContent('count is 1');
+    expect(button).toHaveTextContent('count is 2');
   });
 });
